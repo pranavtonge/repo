@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+     <title>Module2 Assignment</title>
+    <meta charset="utf-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <h1>Our Menu</h1>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <h2 id="Roastedchicken"> Roasted Chicken</h2>
+          <ul> 
+            <li>Roasted Lemon Chicken Drumsticks</li>
+            <li>Bacon Wrapped Ginger Soy Chicken Thighs</li>
+            <li>Mexican Chicken Casserole</li>
+            <li>Chicken Thigh Marinade</li>
+            <li>Easy Oven Baked Chicken Drumsticks</li>
+            <li>Crispy Baked Chicken Wings</li>
+            <li>Easy Baked Barbecue Chicken</li>
+</ul>
+        </section>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <h2 id="Dosas">Dosa</h2>
+            <ul>
+                <li>Pesarattu Dosa</li>
+                <li>Mutton Dosa</li>
+                <li>Moong Dal Dosa</li>
+                <li>Coconut Dosa</li>
+                <li>Rava Dosa</li>
+                <li>Masala Dosa</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="col-lg-4 col-md-12 col-sm-12">
+        <section>
+            <h2 id="Icecreams">Ice cream</h2>
+            <ul>
+                <li>Raspberry Ice Cream</li>
+                <li>Caramel Ice Cream</li>
+                <li>Sea Salt Ice Cream</li>
+                <li>Cookies and Cream</li>
+                <li>Mint Ice Cream with Chocolate Chip</li>
+                <li>Strawberry Ice Cream</li>
+            </ul>
+        </section>
+    </div>
+     <div class="col-lg-12 col-md-12 col-sm-12">
+        <p>Want To Know Who Write This HTML CODE click
+            <a href="https://www.linkedin.com/in/pranav-tonge-46889769?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bx2OpveUKTqK1ZpMRtu3ARg%3D%3D" target="_blank">here</a>.
+        </p>
+    </div>
+   
+</body>
+
+</html>
