@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PT Module3Assignment</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+</head>
+<style>
+  
+</style>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+        <h1 id="company-name"class="navbar-brand">Scientific, Domain</h1>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+        </div> 
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right hidden visible-xs">
+            <li>
+              <a href="#Tesla">
+             
+                <span class="glyphicon glyphicon-plane"></span>
+                
+                Tesla
+              </a>
+            </li>
+            <li>
+              <a href="#Science">
+                <span class="glyphicon glyphicon-apple"></span>
+                <br class="hidden-xs">
+                Science
+              </a>
+            </li>
+            <li>
+              <a href="#Galaxy">
+                <span class="glyphicon glyphicon-exclamation-sign"></span>
+                <br class="hidden-xs">
+                Galaxy
+              </a>
+            </li>
+          </ul>
+        </div> 
+       </div>
+    </nav>
+  </header>
 
+      <div id="main-content" class="container">
+        <div class="row">
+          <h2 id="top" class="text-center">Our Topics</h2>
+        
+            <div id="Tesla" class="col-lg-4 col-md-6 col-xs-12 col-sm-12 section-background-color">
+              <h3 class="text-center">Tesla</h3>
+              <p><a href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank"> Elon Musk's</a>Tesla Roadster is an electric sports car that served as the dummy payload for the February 2018 Falcon Heavy test flight and became an artificial satellite of the Sun. "Starman", a mannequin dressed in a spacesuit, occupies the driver's seat. The car and rocket are products of Tesla and SpaceX, respectively, both companies headed by Elon Musk.[4] The 2008-model Roadster is personally owned by and previously used by Musk for commuting to work. It is the first production car launched into space and first to orbit the sun.The car, mounted on the rocket's second stage, acquired enough velocity to escape Earth's gravity and enter an elliptical heliocentric orbit crossing the orbit of Mars.[5] The orbit reaches a maximum distance from the Sun at aphelion of 1.66 astronomical units (au).[3] During the early portion of the voyage outside the Earth's atmosphere, live video was transmitted back to the mission control center and live-streamed for slightly over four hours.[6] </p>
+            </div>
+        
+          <div id="Science" class="col-lg-4 col-md-6 col-xs-12 col-sm-12 section-background-color">
+            <h3 class="text-center">Science</h3>
+            <p>Science (from the Latin word scientia, meaning "knowledge")[1] is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.[2][3][4]The earliest roots of science can be traced to Ancient Egypt and Mesopotamia in around 3000 to 1200 BCE.[5][6] Their contributions to mathematics, astronomy, and medicine entered and shaped Greek natural philosophy of classical antiquity, whereby formal attempts were made to provide explanations of events in the physical world based on natural causes.[5][6] After the fall of the Western Roman Empire, knowledge of Greek conceptions of the world deteriorated in Western Europe during the early centuries (400 to 1000 CE) of the Middle Ages,[7] but was preserved in the Muslim world during the Islamic Golden Age.[8] The recovery and assimilation of Greek works and Islamic inquiries into Western Europe from the 10th to 13th century revived "natural philosophy",[7][9] which was later transformed by the Scientific Revolution that began in the 16th century[10] as new ideas and discoveries departed from previous Greek conceptions and traditions.[11][12][13][14] The scientific method soon played a greater role in knowledge creation and it was not until the 19th century that many of the institutional and professional features of science began to take shape;[15][16][17] along with the changing of "natural philosophy" to "natural science."[18]</p> 
+          </div>  
+          
+          <div id="Galaxy" class="col-lg-4 col-md-12 col-xs-12 col-sm-12 section-background-color">
+            <h3 class="text-center">Galaxy</h3>
+            <p>A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter.[1][2] The word galaxy is derived from the Greek galaxias (γαλαξίας), literally "milky", a reference to the Milky Way. Galaxies range in size from dwarfs with just a few hundred million (108) stars to giants with one hundred trillion (1014) stars,[3] each orbiting its galaxy's center of mass.Galaxies are categorized according to their visual morphology as elliptical,[4] spiral, or irregular.[5] Many galaxies are thought to have supermassive black holes at their centers. The Milky Way's central black hole, known as Sagittarius A*, has a mass four million times greater than the Sun.[6] As of March 2016, GN-z11 is the oldest and most distant galaxy observed. It has a comoving distance of 32 billion light-years from Earth, and is seen as it existed just 400 million years after the Big Bang.In 2021, data from NASA's New Horizons space probe was used to revise the previous estimate of 2 trillion galaxies down to roughly 200 billion galaxies (2×1011).[7] This followed a 2016 estimate that there were two trillion (2×1012) or more[8][9] galaxies in the observable universe, overall, as many as an estimated 1×1024 stars[10][11] (more stars than all the grains of sand on planet Earth).[12</p>
+          </div>  
+          <a href="#top" id="down" class="visible-xs visible-md visible-sm text-center internal-link">Back to top</a>
+        </div>
+       </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
