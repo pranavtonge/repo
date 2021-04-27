@@ -1,0 +1,8 @@
+(function (window) {
+  var uSpeaker = {};
+   var speakWord = "See u";
+  uSpeaker.speak = function (names) {
+    console.log(speakWord + " " + names);
+  }
+   window.uSpeaker = uSpeaker;
+})(window);
