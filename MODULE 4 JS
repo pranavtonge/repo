@@ -1,0 +1,11 @@
+(function () {
+  var names = ["Pranav", "Kartik", "Sumit", "Tejas", "Nupur", "Sneha", "Monika", "Anil", "Vandana", "Saavi"];
+   for (var i = 0; i < names.length; i++ ) {
+   	 var firstLetter = names[i].charAt(0).toLowerCase();
+   	  if (firstLetter == 'S') {
+       uSpeaker.speak(names[i]);
+    } else {
+       helloSpeaker.speak(names[i]);
+    }
+  }
+});
